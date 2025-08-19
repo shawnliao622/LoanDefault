@@ -38,7 +38,7 @@ The notebook (`LoanDefault.ipynb`) covers the entire workflow from EDA to model 
 ---
 
 ## Model Evaluation & Threshold Choice
-Different thresholds were tested to observe the trade-off between **recall (catching bad loans)** and **precision (accuracy of predicting bad loans):  
+Different thresholds were tested to observe the trade-off between **recall (catching bad loans)** and **precision** (accuracy of predicting bad loans):  
 
 | Threshold | Recall | Precision | ROC-AUC |
 |-----------|--------|-----------|---------|
