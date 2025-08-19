@@ -47,9 +47,9 @@ Different thresholds were tested to observe the trade-off between **recall (catc
 | 0.30      | 0.512  | 0.138     | 0.696   |
 | 0.50      | 0.397  | 0.152     | 0.696   |
 
-- **Low threshold (0.1–0.2):** Catches more bad loans (higher recall) but risks rejecting many good borrowers → lost revenue.
-- **High threshold (0.4–0.5):** Approves more good borrowers (higher precision) but lets through more risky borrowers → higher default risk.
-- **Middle ground (0.25–0.35):** Balances recall and precision.  
+- **Low threshold (0.1-0.2):** Catches more bad loans (higher recall) but risks rejecting many good borrowers → lost revenue.
+- **High threshold (0.4-0.5):** Approves more good borrowers (higher precision) but lets through more risky borrowers → higher default risk.
+- **Middle ground (0.25-0.35):** Balances recall and precision.  
 
 ➡ **Chosen threshold = 0.30** as it offers a solid balance between risk control and revenue opportunities.
 
